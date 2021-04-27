@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.mainCont {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 5rem;
+    margin-top: 20px;
+}
+
+.video{
+    width: 75%;
+    border: double 10px whitesmoke;
+}
+
+.video:hover{
+    border: solid 10px crimson;
+}
